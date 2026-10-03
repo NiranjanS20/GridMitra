@@ -1,0 +1,100 @@
+:root {
+  /* Brand Palette - Deep Forest, Slate Emerald, High-Contrast Crisp Paper, Electric Lime/Mint */
+  --color-forest-deep: #091913;
+  --color-forest: #0F291E;
+  --color-forest-surface: #15382B;
+  --color-forest-light: #1D4B3A;
+  --color-forest-subtle: #255F4A;
+
+  --color-teal-dark: #082829;
+  --color-teal: #0D5254;
+  --color-teal-light: #167A7D;
+  --color-teal-subtle: #E2F3F3;
+
+  --color-cream-dark: #DDE5E0;
+  --color-cream: #F0F4F2;
+  --color-cream-surface: #F8FAF9;
+  --color-paper: #FFFFFF;
+  
+  --color-charcoal-deep: #0B110E;
+  --color-charcoal: #151F1B;
+  --color-charcoal-muted: #4A5B53;
+  --color-charcoal-light: #7A8E85;
+  --color-border-light: #D5DFD9;
+  --color-border-dark: #1E3D30;
+  --color-border-focus: #00E676;
+
+  --color-lime: #00E676;
+  --color-lime-bright: #39FF88;
+  --color-lime-accent: #00C853;
+  --color-lime-glow: rgba(0, 230, 118, 0.18);
+  --color-lime-bg: #E8FDF2;
+
+  --color-acid-lime: #D4F870;
+  --color-acid-lime-hover: #C6F54D;
+  --color-acid-lime-text: #092015;
+
+  /* Status Colors */
+  --color-steady: #00C853;
+  --color-steady-bg: #E8FDF2;
+  --color-steady-border: #86EFAC;
+  --color-steady-text: #065F46;
+
+  --color-watch: #D97706;
+  --color-watch-bg: #FEF3C7;
+  --color-watch-border: #FCD34D;
+  --color-watch-text: #92400E;
+
+  --color-tight: #EA580C;
+  --color-tight-bg: #FFEDD5;
+  --color-tight-border: #FDBA74;
+  --color-tight-text: #9A3412;
+
+  --color-critical: #DC2626;
+  --color-critical-bg: #FEE2E2;
+  --color-critical-border: #FCA5A5;
+  --color-critical-text: #991B1B;
+
+  --color-restore: #2563EB;
+  --color-restore-bg: #DBEAFE;
+  --color-restore-border: #93C5FD;
+  --color-restore-text: #1E40AF;
+
+  /* Typography - Modern Geometric Sans-Serif & Technical Monospace */
+  --font-display: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', 'SF Mono', Consolas, monospace;
+
+  /* Spacing */
+  --space-2xs: 4px;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+  --space-4xl: 96px;
+
+  /* Border Radius - ZERO RADIUS FOR MODERN TECHNICAL SAAS */
+  --radius-xs: 0px;
+  --radius-sm: 0px;
+  --radius-md: 0px;
+  --radius-lg: 0px;
+  --radius-xl: 0px;
+  --radius-full: 0px;
+
+  /* Elevation Shadows */
+  --shadow-xs: 0 1px 2px rgba(11, 25, 19, 0.05);
+  --shadow-sm: 0 1px 3px rgba(11, 25, 19, 0.08);
+  --shadow-md: 0 4px 12px rgba(11, 25, 19, 0.08);
+  --shadow-lg: 0 8px 24px rgba(11, 25, 19, 0.12);
+  --shadow-xl: 0 16px 36px rgba(11, 25, 19, 0.16);
+  --shadow-glow: 0 0 16px rgba(0, 230, 118, 0.25);
+  --shadow-dark-card: 0 4px 20px rgba(0, 0, 0, 0.25);
+
+  /* Transitions */
+  --transition-fast: 120ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-smooth: 300ms cubic-bezier(0.16, 1, 0.3, 1);
+}
