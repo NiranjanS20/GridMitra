@@ -58,7 +58,7 @@ export default function ResidentOnboarding() {
           Configure Your Neighbourhood Power Security
         </h1>
         <p style={{ fontSize: '0.95rem', color: 'var(--color-charcoal-muted)' }}>
-          Step {step} of 4 • Tailored for {currentResident.householdId} (Mayur Vihar)
+          Step {step} of 4 • Tailored for {currentResident.householdId} (Mohol)
         </p>
       </div>
 
@@ -105,7 +105,7 @@ export default function ResidentOnboarding() {
             Confirm Household Details
           </h3>
           <p style={{ fontSize: '0.875rem', color: 'var(--color-charcoal-muted)', margin: 0 }}>
-            We matched your Smart Meter with Mayur Vihar Feeder F-402.
+            We matched your Smart Meter with Mohol Feeder F-402.
           </p>
 
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '12px' }}>
@@ -312,7 +312,7 @@ export default function ResidentOnboarding() {
               onChange={(e) => setConsentGiven(e.target.checked)}
               style={{ accentColor: 'var(--color-forest-deep)', width: '18px', height: '18px' }}
             />
-            <span>I agree to participate in Mayur Vihar Urja Sahakari Samiti cooperative microgrid.</span>
+            <span>I agree to participate in Mohol Urja Sahakari Samiti cooperative microgrid.</span>
           </label>
 
           <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '12px' }}>

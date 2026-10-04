@@ -36,7 +36,7 @@ export const fetchDiscomFeeders = async () => {
   return res.json();
 };
 
-export const fetchAnalytics = async (region = 'mayur_vihar') => {
+export const fetchAnalytics = async (region = 'mohol') => {
   const res = await fetch(`${API_BASE_URL}/analytics/forecast-and-optimize?region=${region}`, {
     headers: getHeaders('operator')
   });

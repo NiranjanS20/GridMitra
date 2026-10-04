@@ -39,7 +39,7 @@ export default function FeederMap({ feeders = [], selectedFeederId, onSelectFeed
           </g>
 
           {/* Feeder Connection Lines */}
-          {/* F-402 (East - Mayur Vihar) */}
+          {/* F-402 (East - Mohol) */}
           <line x1="440" y1="180" x2="620" y2="120" stroke="#EA580C" strokeWidth="2.5" strokeDasharray="6 3" />
           {/* F-108 (South - Lajpat Nagar) */}
           <line x1="400" y1="210" x2="520" y2="280" stroke="#F59E0B" strokeWidth="2" />

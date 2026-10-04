@@ -113,7 +113,7 @@ export default function ResidentBattery() {
               Cooperative Storage Capacity Allocation
             </h3>
             <p style={{ fontSize: '0.825rem', color: 'var(--color-charcoal-muted)', margin: 0 }}>
-              Governed democratically by Mayur Vihar Urja Sahakari Samiti bylaws.
+              Governed democratically by Mohol Urja Sahakari Samiti bylaws.
             </p>
           </div>
           <Link to="/cooperative" style={{ fontSize: '0.8rem', fontWeight: '700', color: 'var(--color-forest)' }}>

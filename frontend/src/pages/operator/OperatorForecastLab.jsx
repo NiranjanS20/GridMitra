@@ -45,24 +45,7 @@ export default function OperatorForecastLab() {
           </h1>
         </div>
         <div style={{ display: 'flex', gap: '8px', alignItems: 'center' }}>
-          <select
-            value={selectedRegion}
-            onChange={(e) => setSelectedRegion(e.target.value)}
-            style={{
-              padding: '6px 12px',
-              background: 'rgba(0,0,0,0.4)',
-              border: '1px solid var(--color-lime)',
-              color: 'var(--color-lime)',
-              borderRadius: '8px',
-              fontSize: '0.85rem',
-              outline: 'none',
-              cursor: 'pointer'
-            }}
-          >
-            <option value="mayur_vihar">Region: Mayur Vihar</option>
-            <option value="mohol">Region: Mohol</option>
-          </select>
-          <SimulationBadge text={selectedRegion === 'mohol' ? "MOHOL NOWCAST" : "NOWCAST EVALUATION"} />
+          <SimulationBadge text="MOHOL NOWCAST" />
           <Link to="/admin/models" style={{ fontSize: '0.8rem', color: 'var(--color-lime)', textDecoration: 'underline' }}>
             Model Registry →
           </Link>
@@ -153,7 +136,7 @@ export default function OperatorForecastLab() {
               18.4 km/h East-North-East
             </strong>
             <span style={{ fontSize: '0.8rem', color: '#8E9B95' }}>
-              Approaching Patparganj & Mayur Vihar corridor at 16:45
+              Approaching Patparganj & Mohol corridor at 16:45
             </span>
           </div>
 
@@ -170,10 +153,10 @@ export default function OperatorForecastLab() {
           <div style={{ background: 'rgba(255, 255, 255, 0.05)', padding: '16px', borderRadius: '10px', border: '1px solid var(--color-border-dark)' }}>
             <span style={{ fontSize: '0.75rem', color: '#8E9B95', textTransform: 'uppercase' }}>Temperature Humidity Index</span>
             <strong style={{ fontSize: '1.25rem', color: '#EF4444', display: 'block', margin: '4px 0', fontFamily: 'var(--font-mono)' }}>
-              {selectedRegion === 'mohol' ? '38.5°C • 45% RH' : '34.2°C • 68% RH'}
+              38.5°C • 45% RH
             </strong>
             <span style={{ fontSize: '0.8rem', color: '#8E9B95' }}>
-              Thermal cooling elasticity multiplier: {selectedRegion === 'mohol' ? '1.58x' : '1.32x'}
+              Thermal cooling elasticity multiplier: 1.58x
             </span>
           </div>
         </div>

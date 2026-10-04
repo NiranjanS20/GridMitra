@@ -99,7 +99,7 @@ export default function ImpactStudio() {
               Scenario Analysis: {selectedScenario.name}
             </h2>
             <span style={{ fontSize: '0.85rem', color: 'var(--color-charcoal-muted)' }}>
-              Evaluating 280 connected households on Mayur Vihar Feeder F-402
+              Evaluating 280 connected households on Mohol Feeder F-402
             </span>
           </div>
 

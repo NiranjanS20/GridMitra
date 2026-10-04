@@ -6,9 +6,9 @@ import { StatusBadge, SimulationBadge } from '../../components/common/BadgesAndK
 
 export default function AdminUsersRoles() {
   const users = [
-    { id: 'USR-01', name: 'Ananya Sharma', email: 'ananya.s@example.com', role: 'Resident (Member)', tenant: 'Mayur Vihar Samiti', permissions: ['View Home Telemetry', 'Participate in DR', 'Cast Governance Votes'], status: 'Active' },
-    { id: 'USR-02', name: 'Rajesh K. (OP-04)', email: 'rajesh.ops@gridmitragrid.in', role: 'Microgrid Operator', tenant: 'Mayur Vihar Substation', permissions: ['Control Room SLD', 'Execute Battery Override', 'Manage Work Orders'], status: 'Active' },
-    { id: 'USR-03', name: 'Dr. Sudhir Sen', email: 'president@urjasamiti.org', role: 'Cooperative President', tenant: 'Mayur Vihar Samiti', permissions: ['Create Proposals', 'View Financial Ledgers', 'Approve Dividends'], status: 'Active' },
+    { id: 'USR-01', name: 'Ananya Sharma', email: 'ananya.s@example.com', role: 'Resident (Member)', tenant: 'Mohol Samiti', permissions: ['View Home Telemetry', 'Participate in DR', 'Cast Governance Votes'], status: 'Active' },
+    { id: 'USR-02', name: 'Rajesh K. (OP-04)', email: 'rajesh.ops@gridmitragrid.in', role: 'Microgrid Operator', tenant: 'Mohol Substation', permissions: ['Control Room SLD', 'Execute Battery Override', 'Manage Work Orders'], status: 'Active' },
+    { id: 'USR-03', name: 'Dr. Sudhir Sen', email: 'president@urjasamiti.org', role: 'Cooperative President', tenant: 'Mohol Samiti', permissions: ['Create Proposals', 'View Financial Ledgers', 'Approve Dividends'], status: 'Active' },
     { id: 'USR-04', name: 'R. Sengupta', email: 'r.sengupta@bsesdelhi.com', role: 'DISCOM Dispatcher', tenant: 'BSES Yamuna Power Ltd', permissions: ['Feeder SCADA Map', 'Broadcast DR Signals', 'Download DERC Filings'], status: 'Active' },
     { id: 'USR-05', name: 'S. Narayanan', email: 'auditor@antigravity.energy', role: 'System Auditor & Admin', tenant: 'Antigravity Core', permissions: ['Model Promotion', 'Inspect Cryptographic Audit', 'Manage RBAC Roles'], status: 'Active' }
   ];

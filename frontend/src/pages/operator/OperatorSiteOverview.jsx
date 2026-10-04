@@ -18,7 +18,7 @@ export default function OperatorSiteOverview() {
             SCADA TELEMETRY & OPTIMAL DISPATCH SUPERVISION
           </span>
           <h1 style={{ fontSize: '1.9rem', color: '#FFFFFF', margin: '2px 0 0 0', fontWeight: '800', letterSpacing: '-0.02em' }}>
-            Site Overview — Mayur Vihar F-402
+            Site Overview — Mohol F-402
           </h1>
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>

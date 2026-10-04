@@ -163,7 +163,7 @@ export default function MethodologyPage() {
                 <td>Gradient Boosted Decision Trees + Weather API</td>
                 <td>MAPE: 3.95%</td>
                 <td>18 ms</td>
-                <td>Mayur Vihar Substation</td>
+                <td>Mohol Substation</td>
               </tr>
               <tr>
                 <td><strong>Microgrid-Optimal-Dispatch-MILP</strong></td>

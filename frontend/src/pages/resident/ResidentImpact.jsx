@@ -37,7 +37,7 @@ export default function ResidentImpact() {
               Top 10% Clean Energy Champion
             </h2>
             <span style={{ fontSize: '0.85rem', color: 'var(--color-cream-dark)' }}>
-              Mayur Vihar Phase 1 Urja Samiti • Reliability Score {impact.reliabilityScore}%
+              Mohol Urja Samiti • Reliability Score {impact.reliabilityScore}%
             </span>
           </div>
         </div>

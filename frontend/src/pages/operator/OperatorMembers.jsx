@@ -66,7 +66,7 @@ export default function OperatorMembers() {
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '16px', flexWrap: 'wrap', gap: '8px' }}>
           <div>
             <h3 style={{ fontSize: '1.25rem', color: '#FFFFFF', margin: 0 }}>
-              Mayur Vihar Substation Block Aggregations
+              Mohol Substation Block Aggregations
             </h3>
             <span style={{ fontSize: '0.8rem', color: '#8E9B95' }}>
               Individual household privacy protected by cryptographic boundary.

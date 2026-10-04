@@ -31,7 +31,7 @@ export default function CooperativeLayout() {
             </div>
             <div>
               <strong style={{ fontSize: '1.05rem', display: 'block', fontWeight: '700', letterSpacing: '-0.01em' }}>
-                Mayur Vihar Urja Sahakari Samiti
+                Mohol Urja Sahakari Samiti
               </strong>
               <span style={{ fontSize: '0.725rem', color: 'var(--color-cream-dark)', fontFamily: 'var(--font-mono)' }}>
                 REG: DL-COOP-2024-884 • 280 Member Households • Feeder F-402

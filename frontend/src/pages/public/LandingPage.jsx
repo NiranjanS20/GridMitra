@@ -160,7 +160,7 @@ export default function LandingPage() {
                 Simulated Performance Across 280 Households
               </h2>
             </div>
-            <SimulationBadge text="SIMULATED OUTCOMES — MAYUR VIHAR F-402 MODEL" />
+            <SimulationBadge text="SIMULATED OUTCOMES — MOHOL F-402 MODEL" />
           </div>
 
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: '16px' }}>
@@ -386,7 +386,7 @@ export default function LandingPage() {
             <ForecastChart data={HOURLY_FORECAST_DATA} height={340} />
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '16px', paddingTop: '16px', borderTop: '1px solid var(--color-border-light)', flexWrap: 'wrap', gap: '12px' }}>
               <span style={{ fontSize: '0.8rem', color: 'var(--color-charcoal-muted)' }}>
-                <strong>Feeder F-402 (Mayur Vihar 11kV Substation):</strong> 280 connected domestic loads, 140 kW rooftop solar, 500 kWh BESS.
+                <strong>Feeder F-402 (Mohol 11kV Substation):</strong> 280 connected domestic loads, 140 kW rooftop solar, 500 kWh BESS.
               </span>
               
             </div>

@@ -67,7 +67,7 @@ export default function ResidentWallet() {
           Transparent Tariff & Reward Rates
         </h3>
         <p style={{ fontSize: '0.85rem', color: 'var(--color-charcoal-muted)', marginBottom: '16px' }}>
-          Approved by Delhi Electricity Regulatory Commission (DERC) and Mayur Vihar Cooperative Board.
+          Approved by Delhi Electricity Regulatory Commission (DERC) and Mohol Cooperative Board.
         </p>
 
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: '12px' }}>

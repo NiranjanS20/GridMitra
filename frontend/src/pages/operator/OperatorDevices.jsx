@@ -70,7 +70,7 @@ export default function OperatorDevices() {
             </span>
             <h4 style={{ color: '#FFFFFF', margin: '6px 0' }}>ADMS / DERMS Gateway</h4>
             <p style={{ fontSize: '0.8rem', color: '#8E9B95', margin: 0 }}>
-              Bi-directional telecontrol link connecting Mayur Vihar microgrid to BSES Central SCADA (IEC 61850 / DNP3).
+              Bi-directional telecontrol link connecting Mohol microgrid to BSES Central SCADA (IEC 61850 / DNP3).
             </p>
           </div>
         </div>

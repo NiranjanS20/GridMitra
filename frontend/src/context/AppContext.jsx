@@ -20,7 +20,7 @@ const AppContext = createContext();
 export function AppProvider({ children }) {
   // Active Role & Navigation Mode
   const [activeRole, setActiveRole] = useState('public'); // 'public', 'resident', 'operator', 'cooperative', 'discom', 'admin', 'impact'
-  const [selectedRegion, setSelectedRegion] = useState('mayur_vihar'); // 'mayur_vihar' or 'mohol'
+  const [selectedRegion, setSelectedRegion] = useState('mohol'); // 'mohol' or 'mohol'
   const [toastMessage, setToastMessage] = useState(null);
 
   // Resident State
@@ -179,7 +179,7 @@ export function AppProvider({ children }) {
       actor: 'Operator: Duty Engineer (OP-04)',
       action: `Manual Battery Override (${mode} ${powerKW} kW)`,
       category: 'Operational Override',
-      target: 'BESS-01 Mayur Vihar',
+      target: 'BESS-01 Mohol',
       previousState: previousMode,
       newState: `Forced ${mode} ${powerKW} kW`,
       reason: reason || 'Manual Grid Relief Intervention',
@@ -203,7 +203,7 @@ export function AppProvider({ children }) {
       actor: 'Operator: Duty Engineer (OP-04)',
       action: 'Battery Override Released',
       category: 'Operational Override',
-      target: 'BESS-01 Mayur Vihar',
+      target: 'BESS-01 Mohol',
       previousState: 'Manual Override',
       newState: 'Auto-Economic Optimization (MILP)',
       reason: 'Standard schedule resumed'

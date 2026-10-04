@@ -58,7 +58,7 @@ export default function OperatorLayout() {
             </strong>
           </div>
           <span style={{ fontSize: '0.725rem', padding: '2px 8px', borderRadius: '0px', background: '#15382B', border: '1px solid #235541', color: 'var(--color-lime)', fontFamily: 'var(--font-mono)' }}>
-            FEEDER: F-402 (MAYUR VIHAR 11kV)
+            FEEDER: F-402 (MOHOL 11kV)
           </span>
         </div>
 

@@ -30,7 +30,7 @@ export default function ResidentToday() {
       <div style={{ display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between', flexWrap: 'wrap', gap: '12px', borderBottom: '1px solid var(--color-border-light)', paddingBottom: '16px' }}>
         <div>
           <span style={{ fontSize: '0.7rem', fontWeight: '800', textTransform: 'uppercase', color: 'var(--color-teal)', letterSpacing: '0.08em', fontFamily: 'var(--font-mono)' }}>
-            HOUSEHOLD ENERGY DISPATCH • MAYUR VIHAR
+            HOUSEHOLD ENERGY DISPATCH • MOHOL
           </span>
           <h1 style={{ fontSize: '2.1rem', color: 'var(--color-forest-deep)', margin: '4px 0 0 0', fontWeight: '800', letterSpacing: '-0.03em' }}>
             Power Smarter, Live Resilient.
@@ -75,7 +75,7 @@ export default function ResidentToday() {
           </div>
 
           <p style={{ fontSize: '0.875rem', color: 'var(--color-charcoal)', margin: 0, lineHeight: 1.5 }}>
-            Rooftop solar across the 48 Mayur Vihar systems will ramp down from 140 kW to 0 kW after 17:45 while domestic air conditioning and cooking loads surge. Transformer DT-04 loading is forecast to reach 97% between 18:30 and 21:00.
+            Rooftop solar across the 48 Mohol systems will ramp down from 140 kW to 0 kW after 17:45 while domestic air conditioning and cooking loads surge. Transformer DT-04 loading is forecast to reach 97% between 18:30 and 21:00.
           </p>
 
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderTop: '1px solid var(--color-border-light)', paddingTop: '10px' }}>

@@ -72,7 +72,7 @@ export default function ResidentCommunications() {
             {/* Message 1: Morning Briefing */}
             <div style={{ alignSelf: 'flex-start', background: '#FFFFFF', padding: '10px 14px', borderRadius: '0 12px 12px 12px', maxWidth: '85%', fontSize: '0.825rem', boxShadow: '0 1px 2px rgba(0,0,0,0.1)' }}>
               <p style={{ margin: 0, color: '#111827' }}>
-                ☀️ <strong>Namaste Ananya ji!</strong> Aaj Mayur Vihar me afternoon solar achha hai (~14.8 kWh). Lekin sham <strong>18:30 se 21:00</strong> grid par peak stress predicted hai.
+                ☀️ <strong>Namaste Ananya ji!</strong> Aaj Mohol me afternoon solar achha hai (~14.8 kWh). Lekin sham <strong>18:30 se 21:00</strong> grid par peak stress predicted hai.
               </p>
               <span style={{ fontSize: '0.65rem', color: '#6B7280', display: 'flex', justifyContent: 'flex-end', marginTop: '4px', gap: '2px' }}>
                 08:30 AM <CheckCheck size={12} color="#3B82F6" />
@@ -134,7 +134,7 @@ export default function ResidentCommunications() {
             Offline SMS Dispatch Template
           </h3>
           <div style={{ background: '#F3F4F6', padding: '16px', borderRadius: '8px', border: '1px solid #D1D5DB', fontFamily: 'var(--font-mono)', fontSize: '0.85rem', color: '#1F2937' }}>
-            [GRIDMITRA-GRID] Alert for Mayur Vihar (Flat 402): High evening feeder load 18:30-21:00. Reply 1 to Shift 1.2kW and earn Rs 85. Reply 2 to skip. Info: gridmitragrid.in/r/402
+            [GRIDMITRA-GRID] Alert for Mohol (Flat 402): High evening feeder load 18:30-21:00. Reply 1 to Shift 1.2kW and earn Rs 85. Reply 2 to skip. Info: gridmitragrid.in/r/402
           </div>
         </div>
       )}
@@ -145,7 +145,7 @@ export default function ResidentCommunications() {
             Automated Voice IVR Call Script (Hindi / English)
           </h3>
           <div style={{ background: '#F0FDF4', padding: '16px', borderRadius: '8px', border: '1px solid #BBF7D0', fontSize: '0.875rem', color: '#166534', lineHeight: 1.6 }}>
-            "Namaste. Mayur Vihar Urja Sahakari Samiti se automated sandesh. Sham 6:30 se 9 baje tak feeder par cooling demand high hai. Agar aap geyser aur AC shift karke ₹85 reward kamana chahte hain, toh 1 dabayein. Otherwise phone rakh dein. Dhanyawad."
+            "Namaste. Mohol Urja Sahakari Samiti se automated sandesh. Sham 6:30 se 9 baje tak feeder par cooling demand high hai. Agar aap geyser aur AC shift karke ₹85 reward kamana chahte hain, toh 1 dabayein. Otherwise phone rakh dein. Dhanyawad."
           </div>
         </div>
       )}

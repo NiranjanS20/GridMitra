@@ -45,7 +45,7 @@ export default function DiscomDrCenter() {
                 Feeder Peak Relief Dispatch (18:30 – 21:00)
               </h3>
               <span style={{ fontSize: '0.8rem', color: '#8E9B95' }}>
-                Broadcast fast DR signal to all 194 enrolled households in Mayur Vihar F-402
+                Broadcast fast DR signal to all 194 enrolled households in Mohol F-402
               </span>
             </div>
           </div>
