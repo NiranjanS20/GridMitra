@@ -24,3 +24,18 @@ dist-ssr
 *.sw?
 
 .agents/
+
+# Python & Backend
+backend/venv/
+venv/
+env/
+__pycache__/
+*.pyc
+.env
+*.sqlite3
+.pytest_cache/
+
+# Data Files (Too large for Git)
+data/*.csv
+data/*.xlsx
+data/*.json
